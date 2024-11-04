@@ -4,7 +4,7 @@ function fizzbuzz() {
     let ceiling = Number(document.getElementById("ceiling").value) + 1;
 
     if (ceiling > 1000) {
-        document.getElementById("output").innerHTML += "Invalid number. Please pick a number less than 1000";
+        document.getElementById("output").innerHTML += "Invalid number. Please pick a number less than 1000.";
         exit();
     }
 
